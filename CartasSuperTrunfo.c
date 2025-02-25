@@ -83,6 +83,11 @@
         printf("Número de Pontos Turísticos é: %d\n", numerodepontoturistico2);
         printf("Número de Habitantes é: %d\n", populacao2);
 
+        /*Foi utilizado as variaveis do tipo int, float e char, que int: declara uma variável do tipo inteiro, 
+        float: uma variável de ponto flutuante e char: declara uma variável de caractere.
+        E as funçoes de entrada e saída de dados como Printf e scanf que printf: que é usada para exibir informações na tela, 
+        e scanf: usada para ler dados fornecidos pelo usuário e armazená-los.
+        */
         return 0;
     }
 
