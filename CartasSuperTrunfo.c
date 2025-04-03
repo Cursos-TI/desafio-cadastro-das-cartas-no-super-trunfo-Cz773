@@ -45,9 +45,9 @@
         printf("Estado é: %s\n", estado1);
         printf ("Código da Carta é: %s\n", codigodacarta1);
         printf("Digite o Nome da Cidade: %s\n", nomedacidade1);
-        printf("Número de Habitantes é: %d\n", populacao1);
-        printf("Área da Cidade é: %f\n", area1);
-        printf("PIB da Cidade é: %f\n", pib1);
+        printf("Número de Habitantes é: %lu\n", populacao1);
+        printf("Área da Cidade é: %.2f\n", area1);
+        printf("PIB da Cidade é: %.2f\n", pib1);
         printf("Número de Pontos Turísticos é: %d\n", numerodepontoturistico1);
         printf ("Número da Densidade Populacional é: %f\n", densidadepopulacional1);
         printf("Número do PIB per Capita é: %f\n", pibpercapita1);
@@ -98,8 +98,8 @@
         printf ("Código da Carta é: %s\n", codigodacarta2);
         printf("Nome da Cidade é: %s\n", nomedacidade2); 
         printf("Número de Habitantes é: %lu\n", populacao2);
-        printf("Área da Cidade é: %f\n", area2);
-        printf("PIB da Cidade é: %f\n", pib2);
+        printf("Área da Cidade é: %.2f\n", area2);
+        printf("PIB da Cidade é: %.2f\n", pib2);
         printf("Número de Pontos Turísticos é: %d\n", numerodepontoturistico2);
         printf ("Número da Densidade Populacional é: %f\n", densidadepopulacional2);
         printf("Número do PIB per Capita é: %f\n", pibpercapita2);
@@ -113,6 +113,13 @@
         printf("O valor do Densiadade Populacional da Carta 01 é maior que o valor da Carta 02 ? %d\n", densidadepopulacional1 < densidadepopulacional2);
         printf("O valor do PIB per Capita da Carta 01 é maior que o valor da Carta 02 ? %d \n", pibpercapita1 > pibpercapita2);
         printf("O valor do Super Poder da Carta 01 é maior que o valor da Carta 02 ? %d \n", superpoder1 > superpoder2);
+
+        printf("Comparação das Cartas fator população \n");
+        if (populacao1 > populacao2){
+            printf("População 1 Venceu! \n");
+        }else{
+            printf("População 2 Venceu! \n");
+        }
 
         /*Foi utilizado as variaveis do tipo int, float e char, que int: declara uma variável do tipo inteiro, 
         float: uma variável de ponto flutuante e char: declara uma variável de caractere.
