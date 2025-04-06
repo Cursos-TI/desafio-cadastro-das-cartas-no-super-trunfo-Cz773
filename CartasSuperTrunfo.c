@@ -114,13 +114,6 @@
         printf("O valor do PIB per Capita da Carta 01 é maior que o valor da Carta 02 ? %d \n", pibpercapita1 > pibpercapita2);
         printf("O valor do Super Poder da Carta 01 é maior que o valor da Carta 02 ? %d \n", superpoder1 > superpoder2);
 
-        printf("Comparação das Cartas fator população \n");
-        if (populacao1 > populacao2){
-            printf("População 1 Venceu! \n");
-        }else{
-            printf("População 2 Venceu! \n");
-        }
-
         /*Foi utilizado as variaveis do tipo int, float e char, que int: declara uma variável do tipo inteiro, 
         float: uma variável de ponto flutuante e char: declara uma variável de caractere.
         E as funçoes de entrada e saída de dados como Printf e scanf que printf: que é usada para exibir informações na tela, 
